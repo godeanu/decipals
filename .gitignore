@@ -1,0 +1,256 @@
+
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*.local
+*.local
+.vscode/
+.idea/
+*.iml
+
+# --- Node / Backend ---
+server/node_modules/
+server/dist/
+server/coverage/
+server/*.sqlite
+
+# --- React Native (iOS) ---
+ios/Pods/
+ios/build/
+ios/*.xcworkspace
+ios/DerivedData/
+# Xcode intermediate
+*.xcuserstate
+*.xcuserdata
+
+# --- React Native (Android) ---
+android/.gradle/
+android/.idea/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+
+# --- React Native (general) ---
+**/node_modules/
+# Metro & cache
+.expo/
+.expo-shared/
+package-lock.json
+npm-packages-offline-cache/
+# generated assets
+*.png
+*.jpg
+# React Native tooling
+*.hprof
+*.prof
+*.provisionprofile
+*.ips
+
+# --- Tests / Coverage ---
+coverage/
+*coverage-final.json
+jest-html-reporters-*
+
+# --- Docs assets ---
+docs/screens/
+docs/diagrams/
+
+# --- OS / Editor cruft ---
+Thumbs.db
+ehthumbs.db
+*.swp
+*~
+
+
+
+# Music Share - Git Ignore File
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts
+build/
+dist/
+lib/
+
+# React Native specific
+.expo/
+.expo-shared/
+
+# iOS build artifacts
+ios/build/
+ios/DerivedData/
+ios/Pods/
+*.xcworkspace
+*.xcuserdata
+ios/.xcode.env.local
+
+# Android build artifacts
+android/app/build/
+android/build/
+android/.gradle/
+android/gradle/
+android/local.properties
+android/app/release/
+*.keystore
+!debug.keystore
+
+# Metro bundler
+.metro-health-check*
+metro.config.js.bak
+
+# Testing
+coverage/
+.nyc_output
+junit.xml
+
+# Logs
+logs
+*.log
+
+# Cache directories
+.cache/
+.parcel-cache/
+.sass-cache/
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Azure and deployment
+.azure/
+deploy.log
+
+# Database
+*.sqlite
+*.db
+
+# Package lock files (keep only one)
+package-lock.json
+yarn.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Flipper
+flipper-out/
+
+# Bundle artifacts
+*.jsbundle
+
+# CocoaPods
+ios/Pods/
+ios/Podfile.lock
+
+# Fastlane
+ios/fastlane/report.xml
+ios/fastlane/Preview.html
+ios/fastlane/screenshots
+ios/fastlane/test_output
+
+# Gradle
+android/.gradle/
+android/gradle.properties
+
+# Ignore bundle artifacts
+*.bundle
+
+# Ruby
+.ruby-version
+
+# Ignore server build files
+server/dist/
+server/build/
+
+# Ignore uploaded files and media
+uploads/
+media/
+profile-images/
+
+# Configuration files with sensitive data
+config/production.json
+config/staging.json
+
+# SSL certificates
+*.pem
+*.p8
+*.p12
+
+# Backup files
+*.backup
+*.bak
